@@ -36,7 +36,7 @@
   "address": { "@type": "PostalAddress", "addressLocality": "Nairobi", "addressCountry": "KE" },
   "alumniOf": { "@type": "CollegeOrUniversity", "name": "Egerton University" },
   "worksFor": { "@type": "Organization", "name": "Linux Solutions Company" },
-  "knowsAbout": ["Python", "Django", "Django REST Framework", "TypeScript", "React", "PostgreSQL", "Docker", "CI/CD", "AWS", "Computer Vision", "TensorFlow", "OpenCV", "DevOps"],
+  "knowsAbout": ["Python", "Django", "Django REST Framework", "FastAPI", "TypeScript", "React", "PostgreSQL", "Docker", "CI/CD", "AWS", "Computer Vision", "TensorFlow", "OpenCV", "DevOps"],
   "sameAs": ["https://github.com/gogola89", "https://www.linkedin.com/in/gogola89"]
 }
 </script>
@@ -412,7 +412,7 @@ footer { border-top: 1px solid var(--line); padding: 32px 0 48px; }
         <div class="status"><span class="dot" aria-hidden="true"></span>Open to work <span class="sep">/</span> Remote &amp; on-site<span class="opt"> <span class="sep">/</span> Nairobi <span class="sep">/</span> <span id="clock">EAT · UTC+3</span></span></div>
         <h1>George<br><span class="last">Ogola</span></h1>
         <p class="role">Senior Full-Stack Engineer<span>·</span>AI / ML<span>·</span>DevOps</p>
-        <p class="lede">I design and ship <strong>backend systems that stay up</strong>: Python and Django APIs, computer-vision pipelines, and the CI/CD that puts them in production. 9+ years, <strong>99.9% uptime</strong>.</p>
+        <p class="lede">I design and ship <strong>backend systems that stay up</strong>: Python APIs in Django and FastAPI, computer-vision pipelines, and the CI/CD that puts them in production. 9+ years, <strong>99.9% uptime</strong>.</p>
         <div class="cta">
           <a class="btn primary" href="assets/George_Ogola_CV.pdf" download>
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 21h16"/></svg>
@@ -488,7 +488,7 @@ footer { border-top: 1px solid var(--line); padding: 32px 0 48px; }
       <div class="diagram reveal">
         <svg viewBox="0 0 990 400" role="img" aria-labelledby="dg-title dg-desc">
           <title id="dg-title">System architecture overview</title>
-          <desc id="dg-desc">Three lanes. Request path: clients to Nginx edge to Django REST API to PostgreSQL, MongoDB and Redis. Vision pipeline: annotated datasets to TensorFlow and OpenCV training to Celery inference workers, which the API calls through Redis queues and which report to Prometheus, Grafana and ELK. Delivery: Git and code review to CI tests, Docker builds and AWS deployment.</desc>
+          <desc id="dg-desc">Three lanes. Request path: clients to Nginx edge to Django REST and FastAPI services to PostgreSQL, MongoDB and Redis. Vision pipeline: annotated datasets to TensorFlow and OpenCV training to Celery inference workers, which the API calls through Redis queues and which report to Prometheus, Grafana and ELK. Delivery: Git and code review to CI tests, Docker builds and AWS deployment.</desc>
           <defs>
             <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path class="arrow" d="M0 0 10 5 0 10z"/></marker>
             <marker id="ahh" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path class="arrow hot" d="M0 0 10 5 0 10z"/></marker>
@@ -497,7 +497,7 @@ footer { border-top: 1px solid var(--line); padding: 32px 0 48px; }
           <text class="lane" x="20" y="30">01 / REQUEST PATH</text>
           <g class="node"><rect x="20" y="44" width="200" height="64" rx="8"/><text class="t" x="38" y="70">CLIENTS</text><text class="s" x="38" y="92">Web · Mobile · Cameras</text></g>
           <g class="node"><rect x="270" y="44" width="200" height="64" rx="8"/><text class="t" x="288" y="70">EDGE</text><text class="s" x="288" y="92">Nginx · TLS · Rate limits</text></g>
-          <g class="node hot"><rect x="520" y="44" width="200" height="64" rx="8"/><text class="t" x="538" y="70">API</text><text class="s" x="538" y="92">Django REST · JWT/OAuth2</text></g>
+          <g class="node hot"><rect x="520" y="44" width="200" height="64" rx="8"/><text class="t" x="538" y="70">API</text><text class="s" x="538" y="92">Django · FastAPI · JWT</text></g>
           <g class="node"><rect x="770" y="44" width="200" height="64" rx="8"/><text class="t" x="788" y="70">DATA</text><text class="s" x="788" y="92">PostgreSQL · Mongo · Redis</text></g>
           <path class="wire hot" d="M220 76H268" marker-end="url(#ahh)"/>
           <path class="wire hot" d="M470 76H518" marker-end="url(#ahh)"/>
@@ -614,7 +614,7 @@ footer { border-top: 1px solid var(--line); padding: 32px 0 48px; }
         <h2>Tools I reach for</h2>
       </div>
       <div class="stack">
-        <div class="module reveal"><header><h3>backend</h3><span class="count">08</span></header><div class="chips"><span class="chip key">Python</span><span class="chip key">Django</span><span class="chip key">Django REST</span><span class="chip">Flask</span><span class="chip">REST</span><span class="chip">WebSockets</span><span class="chip">OAuth2 / JWT</span><span class="chip">OpenAPI</span></div></div>
+        <div class="module reveal"><header><h3>backend</h3><span class="count">09</span></header><div class="chips"><span class="chip key">Python</span><span class="chip key">Django</span><span class="chip key">Django REST</span><span class="chip key">FastAPI</span><span class="chip">Flask</span><span class="chip">REST</span><span class="chip">WebSockets</span><span class="chip">OAuth2 / JWT</span><span class="chip">OpenAPI</span></div></div>
         <div class="module reveal"><header><h3>frontend</h3><span class="count">05</span></header><div class="chips"><span class="chip key">TypeScript</span><span class="chip">JavaScript</span><span class="chip key">React</span><span class="chip">Next.js</span><span class="chip">Angular</span></div></div>
         <div class="module reveal"><header><h3>data</h3><span class="count">08</span></header><div class="chips"><span class="chip key">PostgreSQL</span><span class="chip">MySQL</span><span class="chip">MongoDB</span><span class="chip key">Redis</span><span class="chip">Elasticsearch</span><span class="chip key">Celery</span><span class="chip">RabbitMQ</span><span class="chip">SQL tuning</span></div></div>
         <div class="module reveal"><header><h3>ml-vision</h3><span class="count">06</span></header><div class="chips"><span class="chip key">TensorFlow</span><span class="chip key">OpenCV</span><span class="chip">Face recognition</span><span class="chip">ANPR / plates</span><span class="chip">Data annotation</span><span class="chip">Model integration</span></div></div>
