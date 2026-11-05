@@ -1,0 +1,19 @@
+{
+  "name": "George Ogola",
+  "role": "Senior Full-Stack Software Engineer",
+  "location": "Nairobi, Kenya (UTC+3)",
+  "email": "gogola89@gmail.com",
+  "github": "https://github.com/gogola89",
+  "linkedin": "https://www.linkedin.com/in/gogola89",
+  "available": true,
+  "work_mode": [
+    "remote",
+    "on-site"
+  ],
+  "stack": [
+    "python",
+    "django",
+    "docker",
+    "aws"
+  ]
+}
