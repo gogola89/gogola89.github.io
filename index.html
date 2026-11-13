@@ -455,7 +455,7 @@ footer { border-top: 1px solid var(--line); padding: 32px 0 48px; }
         <li class="spec"><div class="k">Experience</div><div class="v">10<small>+ yrs</small></div><div class="d">Shipping production software since 2016.</div></li>
         <li class="spec"><div class="k">Availability</div><div class="v">99.9<small>%</small></div><div class="d">Uptime across the backend services I led.</div></li>
         <li class="spec"><div class="k">API response</div><div class="v">−65<small>%</small></div><div class="d">Profiling, indexing and pooling on Postgres and Mongo.</div></li>
-        <li class="spec"><div class="k">User latency</div><div class="v">−50<small>%</small></div><div class="d">Heavy work moved to Celery + Redis queues.</div></li>
+        <li class="spec"><div class="k">Daily requests</div><div class="v">10k<small>+</small></div><div class="d">Handled by the backend services I led.</div></li>
         <li class="spec"><div class="k">Deploy errors</div><div class="v">−70<small>%</small></div><div class="d">GitLab CI and GitHub Actions pipelines.</div></li>
         <li class="spec"><div class="k">Test coverage</div><div class="v">85<small>%</small></div><div class="d">TDD rollout; 40% fewer production bugs.</div></li>
         <li class="spec"><div class="k">Video streams</div><div class="v">50<small>+</small></div><div class="d">Processed concurrently on a video-analytics platform.</div></li>
@@ -577,7 +577,7 @@ footer { border-top: 1px solid var(--line); padding: 32px 0 48px; }
               <li>Led backend architecture and delivery for services running at <b>99.9% uptime</b>.</li>
               <li>Led a team of data scientists annotating face and vehicle number-plate datasets, then training <b>face-recognition and plate-identification models</b> with OpenCV and TensorFlow.</li>
               <li>Designed Django REST Framework APIs with auth, permissions, pagination, filtering, versioning and OpenAPI docs.</li>
-              <li>Moved background and data-processing work onto Celery + Redis, <b>cutting user-facing latency by 50%</b>.</li>
+              <li>Built reliable async workflows on <b>RabbitMQ, Celery and Redis</b>, with retries, idempotency and recovery.</li>
               <li>Profiled and tuned PostgreSQL and MongoDB (indexes, ORM, connection pooling), <b>cutting API response times by 65%</b>.</li>
               <li>Introduced TDD and automated testing: <b>85% coverage, 40% fewer production bugs</b>.</li>
               <li>Built GitLab CI and GitHub Actions pipelines, <b>reducing deployment errors by 70%</b>; containerised Django apps for AWS.</li>
@@ -594,9 +594,9 @@ footer { border-top: 1px solid var(--line); padding: 32px 0 48px; }
             <p class="org">E-kraal Innovation Hub</p>
             <ul>
               <li>Built DRF APIs for a video-analytics platform processing <b>50+ concurrent video streams</b> with Celery and Redis.</li>
-              <li>Built image-processing and feature-extraction pipelines handling thousands of records a day.</li>
-              <li>Automated deployments with shell scripts and cron, <b>reducing manual deployment errors by 80%</b>.</li>
-              <li>Ran Ubuntu servers: backups, hardening and monitoring; agreed API contracts with frontend teams.</li>
+              <li>Built image-processing and feature-extraction pipelines processing <b>2,000+ records</b> a day.</li>
+              <li>Automated deployment tasks and maintained Ubuntu servers: backups, security hardening and monitoring.</li>
+              <li>Agreed API contracts, integration requirements and documentation with frontend teams.</li>
             </ul>
             <div class="chips"><span class="chip">Django</span><span class="chip">Celery</span><span class="chip">Video analytics</span><span class="chip">Ubuntu</span></div>
           </div>
